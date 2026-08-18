@@ -1,0 +1,9 @@
+Package: @humanfs/types
+
+Version: 0.15.0
+
+Declared license: Apache-2.0
+
+Source files: No bundled license text found
+
+The installed package does not contain a conventionally named LICENSE, COPYING, NOTICE, or COPYRIGHT file. Review the package source before distribution.

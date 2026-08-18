@@ -1,0 +1,9 @@
+Package: @rolldown/binding-linux-x64-gnu
+
+Version: 1.2.4
+
+Declared license: MIT
+
+Source files: No bundled license text found
+
+The installed package does not contain a conventionally named LICENSE, COPYING, NOTICE, or COPYRIGHT file. Review the package source before distribution.

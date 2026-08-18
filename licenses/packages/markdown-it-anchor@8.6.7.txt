@@ -1,0 +1,9 @@
+Package: markdown-it-anchor
+
+Version: 8.6.7
+
+Declared license: Unlicense
+
+Source files: No bundled license text found
+
+The installed package does not contain a conventionally named LICENSE, COPYING, NOTICE, or COPYRIGHT file. Review the package source before distribution.

@@ -1,0 +1,9 @@
+Package: boolbase
+
+Version: 1.0.0
+
+Declared license: ISC
+
+Source files: No bundled license text found
+
+The installed package does not contain a conventionally named LICENSE, COPYING, NOTICE, or COPYRIGHT file. Review the package source before distribution.

@@ -1,0 +1,17 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.json",
+  "include": [
+    "eslint.config.js",
+    "playwright.config.ts",
+    "postcss.config.js",
+    "prettier.config.js",
+    "vite.config.ts",
+    "vitest.config.ts"
+  ],
+  "compilerOptions": {
+    "composite": true,
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "types": ["node"]
+  }
+}
