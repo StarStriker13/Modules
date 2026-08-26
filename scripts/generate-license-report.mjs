@@ -61,7 +61,6 @@ for (const packageInfo of sortedPackages) {
     packageInfo.name,
     packageInfo.version,
   )
-  const relativeOutputPath = path.posix.join('packages', outputFilename)
   const outputPath = path.join(packageOutputRoot, outputFilename)
   const sourceDescription = sourceFiles.length
     ? sourceFiles.map((file) => path.basename(file)).join('; ')
@@ -92,30 +91,27 @@ for (const packageInfo of sortedPackages) {
   rows.push([
     packageInfo.name,
     packageInfo.version,
+    makeNpmPackageUrl(packageInfo.name, packageInfo.version),
+    'NPM',
     packageInfo.license,
-    packageInfo.dependencyType,
-    [...packageInfo.installPaths].sort().join('; '),
-    sourceDescription,
-    relativeOutputPath,
   ])
 }
 
 const csvHeader = [
-  'package',
-  'version',
-  'license',
-  'dependency_type',
-  'install_paths',
-  'license_sources',
-  'text_file',
+  'Package Name',
+  'Version',
+  'Source URL',
+  'Vendor',
+  'License Type',
 ]
 const csv = [csvHeader, ...rows]
   .map((row) => row.map(csvEscape).join(','))
   .join('\n')
-fs.writeFileSync(path.join(outputRoot, 'licenses.csv'), `${csv}\n`)
+fs.writeFileSync(path.join(outputRoot, 'manifest.csv'), `${csv}\n`)
 
 const missingCount = rows.filter(
-  (row) => row[5] === 'No bundled license text found',
+  (_, index) =>
+    findLicenseFiles(sortedPackages[index].packageRoot).length === 0,
 ).length
 console.log(`Generated ${rows.length} package license files in ${outputRoot}`)
 console.log(
@@ -127,6 +123,10 @@ function normalizeLicense(license) {
   if (typeof license === 'string') return license
   if (Array.isArray(license)) return license.map(normalizeLicense).join(' OR ')
   return license.type ?? 'UNKNOWN'
+}
+
+function makeNpmPackageUrl(packageName, version) {
+  return `https://www.npmjs.com/package/${packageName}/v/${version}`
 }
 
 function findLicenseFiles(packageRoot) {
