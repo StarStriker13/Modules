@@ -8,6 +8,7 @@ Package Name,Version,Source URL,Vendor,License Type
 @babel/parser,8.0.4,https://www.npmjs.com/package/@babel/parser/v/8.0.4,NPM,MIT
 @babel/types,7.29.8,https://www.npmjs.com/package/@babel/types/v/7.29.8,NPM,MIT
 @babel/types,8.0.4,https://www.npmjs.com/package/@babel/types/v/8.0.4,NPM,MIT
+@bufbuild/protobuf,2.16.0,https://www.npmjs.com/package/@bufbuild/protobuf/v/2.16.0,NPM,(Apache-2.0 AND BSD-3-Clause)
 @eslint-community/eslint-utils,4.10.1,https://www.npmjs.com/package/@eslint-community/eslint-utils/v/4.10.1,NPM,MIT
 @eslint-community/regexpp,4.12.2,https://www.npmjs.com/package/@eslint-community/regexpp/v/4.12.2,NPM,MIT
 @eslint/config-array,0.23.5,https://www.npmjs.com/package/@eslint/config-array/v/0.23.5,NPM,Apache-2.0
@@ -125,6 +126,7 @@ brace-expansion,5.0.9,https://www.npmjs.com/package/brace-expansion/v/5.0.9,NPM,
 buffer-image-size,0.6.4,https://www.npmjs.com/package/buffer-image-size/v/0.6.4,NPM,MIT
 bundle-name,4.1.0,https://www.npmjs.com/package/bundle-name/v/4.1.0,NPM,MIT
 call-bind-apply-helpers,1.0.2,https://www.npmjs.com/package/call-bind-apply-helpers/v/1.0.2,NPM,MIT
+case-anything,2.1.13,https://www.npmjs.com/package/case-anything/v/2.1.13,NPM,MIT
 catharsis,0.9.0,https://www.npmjs.com/package/catharsis/v/0.9.0,NPM,MIT
 chai,6.2.2,https://www.npmjs.com/package/chai/v/6.2.2,NPM,MIT
 chalk,4.1.2,https://www.npmjs.com/package/chalk/v/4.1.2,NPM,MIT
@@ -160,11 +162,13 @@ default-browser-id,5.0.1,https://www.npmjs.com/package/default-browser-id/v/5.0.
 default-browser,5.5.1,https://www.npmjs.com/package/default-browser/v/5.5.1,NPM,MIT
 define-lazy-prop,3.0.0,https://www.npmjs.com/package/define-lazy-prop/v/3.0.0,NPM,MIT
 delayed-stream,1.0.0,https://www.npmjs.com/package/delayed-stream/v/1.0.0,NPM,MIT
+detect-libc,1.0.3,https://www.npmjs.com/package/detect-libc/v/1.0.3,NPM,Apache-2.0
 detect-libc,2.1.2,https://www.npmjs.com/package/detect-libc/v/2.1.2,NPM,Apache-2.0
 dom-serializer,2.0.0,https://www.npmjs.com/package/dom-serializer/v/2.0.0,NPM,MIT
 domelementtype,2.3.0,https://www.npmjs.com/package/domelementtype/v/2.3.0,NPM,BSD-2-Clause
 domhandler,5.0.3,https://www.npmjs.com/package/domhandler/v/5.0.3,NPM,BSD-2-Clause
 domutils,3.2.2,https://www.npmjs.com/package/domutils/v/3.2.2,NPM,BSD-2-Clause
+dprint-node,1.0.8,https://www.npmjs.com/package/dprint-node/v/1.0.8,NPM,MIT
 dunder-proto,1.0.1,https://www.npmjs.com/package/dunder-proto/v/1.0.1,NPM,MIT
 eastasianwidth,0.2.0,https://www.npmjs.com/package/eastasianwidth/v/0.2.0,NPM,MIT
 editorconfig,1.0.7,https://www.npmjs.com/package/editorconfig/v/1.0.7,NPM,MIT
@@ -399,6 +403,9 @@ tinyglobby,0.2.17,https://www.npmjs.com/package/tinyglobby/v/0.2.17,NPM,MIT
 tinyrainbow,3.1.1,https://www.npmjs.com/package/tinyrainbow/v/3.1.1,NPM,MIT
 tmp,0.2.7,https://www.npmjs.com/package/tmp/v/0.2.7,NPM,MIT
 ts-api-utils,2.5.0,https://www.npmjs.com/package/ts-api-utils/v/2.5.0,NPM,MIT
+ts-poet,6.12.0,https://www.npmjs.com/package/ts-poet/v/6.12.0,NPM,Apache-2.0
+ts-proto-descriptors,2.1.0,https://www.npmjs.com/package/ts-proto-descriptors/v/2.1.0,NPM,ISC
+ts-proto,2.13.0,https://www.npmjs.com/package/ts-proto/v/2.13.0,NPM,ISC
 tsconfck,3.1.6,https://www.npmjs.com/package/tsconfck/v/3.1.6,NPM,MIT
 type-check,0.4.0,https://www.npmjs.com/package/type-check/v/0.4.0,NPM,MIT
 type-fest,4.41.0,https://www.npmjs.com/package/type-fest/v/4.41.0,NPM,(MIT OR CC0-1.0)
